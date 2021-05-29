@@ -77,7 +77,7 @@
 
 <script>
 import Loader from '~/components/Loader'
-import {mapActions, mapState} from 'vuex'
+import { mapState } from 'vuex'
 export default {
   components: {
     Loader
@@ -89,7 +89,7 @@ export default {
   },
   computed: {
     ...mapState('movie', [
-      'thieMovie',
+      'theMovie',
       'loading'
     ])
   },
