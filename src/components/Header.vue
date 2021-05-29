@@ -72,7 +72,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "~/scss/main";
 header {
   height: 70px;
   padding: 0 40px;

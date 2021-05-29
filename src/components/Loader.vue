@@ -50,10 +50,4 @@ export default {
     position: fixed;
   }
 }
-.absolute {
-
-}
-.fixed {
-
-}
 </style>
