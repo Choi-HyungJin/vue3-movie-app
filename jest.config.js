@@ -18,7 +18,8 @@ module.exports = {
   // `<rootDir>` 토큰을 사용해 루트 경로 참조 가능
   modulePathIgnorePatterns: [
     '<rootDir>/node_moduels',
-    '<rootDir>/dist'
+    '<rootDir>/dist',
+    '<rootDir>/cypress'
   ],
 
   // jsdom 환경에 대한 URL 설정

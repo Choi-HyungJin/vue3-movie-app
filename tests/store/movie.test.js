@@ -101,6 +101,6 @@ describe('store/movie.js', () => {
     }
     axios.post = jest.fn().mockResolvedValue(res)
     await store.dispatch('searchMovieWithId')
-    expect(store.state.theMovie).toEqual()
+    expect(store.state.theMovie).toEqual(res.data)
   })
 })
